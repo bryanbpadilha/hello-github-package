@@ -1,0 +1,27 @@
+{
+  "name": "@bryanbpadilha/hello-github-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanbpadilha/hello-github-package.git"
+  },
+  "keywords": [],
+  "author": "bryanbpadilha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanbpadilha/hello-github-package/issues"
+  },
+  "homepage": "https://github.com/bryanbpadilha/hello-github-package#readme",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/",
+    "access": "public"
+  }
+}
